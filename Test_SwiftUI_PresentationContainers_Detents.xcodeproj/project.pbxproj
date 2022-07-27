@@ -11,6 +11,7 @@
 		EF713379289119A400ADE941 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF713378289119A400ADE941 /* ContentView.swift */; };
 		EF71337B289119A400ADE941 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF71337A289119A400ADE941 /* Assets.xcassets */; };
 		EF71337E289119A400ADE941 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF71337D289119A400ADE941 /* Preview Assets.xcassets */; };
+		EF7133862891357D00ADE941 /* PresentationDetent+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7133852891357D00ADE941 /* PresentationDetent+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		EF713378289119A400ADE941 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EF71337A289119A400ADE941 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF71337D289119A400ADE941 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF7133852891357D00ADE941 /* PresentationDetent+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PresentationDetent+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		EF713375289119A400ADE941 /* Test_SwiftUI_PresentationContainers_Detents */ = {
 			isa = PBXGroup;
 			children = (
+				EF7133842891355B00ADE941 /* Extensions */,
 				EF713376289119A400ADE941 /* Test_SwiftUI_PresentationContainers_DetentsApp.swift */,
 				EF713378289119A400ADE941 /* ContentView.swift */,
 				EF71337A289119A400ADE941 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				EF71337D289119A400ADE941 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF7133842891355B00ADE941 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EF7133852891357D00ADE941 /* PresentationDetent+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF713379289119A400ADE941 /* ContentView.swift in Sources */,
+				EF7133862891357D00ADE941 /* PresentationDetent+Extension.swift in Sources */,
 				EF713377289119A400ADE941 /* Test_SwiftUI_PresentationContainers_DetentsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
